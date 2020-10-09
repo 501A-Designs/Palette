@@ -8,6 +8,30 @@
 .bg-salmon {
   background-color: rgb(247, 155, 155);
 }
+.bg-sandybrown {
+  background-color: sandybrown;
+}
+.bg-brown {
+  background-color: brown;
+}
+.bg-seagreen {
+  background-color: seagreen;
+}
+.bg-aqua {
+  background-color: aqua;
+}
+.bg-firebrick {
+  background-color: firebrick;
+}
+.bg-darkolivegreen {
+  background-color: darkolivegreen;
+}
+.bg-slateblue {
+  background-color: slateblue;
+}
+.bg-crimson {
+  background-color: crimson;
+}
 .bg-d-red {
   background-color: rgb(128, 25, 25);
   color: white;
@@ -72,6 +96,30 @@
 }
 .txt-salmon {
   color: rgb(247, 155, 155);
+}
+.txt-sandybrown {
+  color: sandybrown;
+}
+.txt-brown {
+  color: brown;
+}
+.txt-seagreen {
+  color: seagreen;
+}
+.txt-aqua {
+  color: aqua;
+}
+.txt-firebrick {
+  color: firebrick;
+}
+.txt-darkolivegreen {
+  color: darkolivegreen;
+}
+.txt-slateblue {
+  color: slateblue;
+}
+.txt-crimson {
+  color: crimson;
 }
 .txt-d-red {
   color: rgb(128, 25, 25);
