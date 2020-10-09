@@ -83,7 +83,7 @@
   background-color: rgba(255, 166, 0, 0.5);
 }
 .bg-salmon-a {
-  background-color: rgb(247, 155, 155, 0.5);
+  background-color: rgba(247, 155, 155, 0.5);
 }
 .bg-sandybrown-a {
   background-color: rgba(244, 165, 96, 0.5);
@@ -110,46 +110,46 @@
   background-color: rgba(220, 20, 60, 0.5);
 }
 .bg-d-red-a {
-  background-color: rgb(128, 25, 25, 0.5);
+  background-color: rgba(128, 25, 25, 0.5);
   color: white;
 }
 .bg-red-a {
-  background-color: rgb(202, 54, 54, 0.5);
+  background-color: rgba(202, 54, 54, 0.5);
   color: white;
 }
 .bg---red-a {
-  background-color: rgb(252, 61, 61, 0.5);
+  background-color: rgba(252, 61, 61, 0.5);
 }
 .bg-d-blue-a {
-  background-color: rgb(47, 69, 134, 0.5);
+  background-color: rgba(47, 69, 134, 0.5);
   color: white;
 }
 .bg-blue-a {
-  background-color: rgb(86, 120, 223, 0.5);
+  background-color: rgba(86, 120, 223, 0.5);
   color: white;
 }
 .bg---blue-a {
-  background-color: rgb(142, 165, 233, 0.5);
+  background-color: rgba(142, 165, 233, 0.5);
 }
 .bg-d-green-a {
-  background-color: #1957199d;
+  background-color: rgba(25, 87, 25, 0.5);
   color: white;
 }
 .bg-green-a {
-  background-color: #35913591;
+  background-color: rgba(53, 145, 53, 0.5);
 }
 .bg---green-a {
-  background-color: #83cc838e;
+  background-color: rgba(131, 204, 131, 0.5);
 }
 .bg-black-a {
-  background-color: rgb(45, 45, 48, 0.5);
+  background-color: rgba(45, 45, 48, 0.5);
   color: white;
 }
 .bg---grey-a {
-  background-color: #e7e7e783;
+  background-color: rgba(231, 231, 231, 0.5);
 }
 .bg-grey-a {
-  background-color: rgb(109, 112, 119, 0.5);
+  background-color: rgba(109, 112, 119, 0.5);
 }
 
 /* Text Color */
