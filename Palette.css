@@ -1,0 +1,102 @@
+/* 🎨 Colors */
+.bg-tomato {
+  background-color: tomato;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-salmon {
+  background-color: rgb(247, 155, 155);
+}
+.bg-d-red {
+  background-color: rgb(128, 25, 25);
+  color: white;
+}
+.bg-red {
+  background-color: rgb(202, 54, 54);
+  color: white;
+}
+.bg---red {
+  background-color: rgb(252, 61, 61);
+}
+.bg-d-blue {
+  background-color: rgb(47, 69, 134);
+  color: white;
+}
+.bg-blue {
+  background-color: rgb(86, 120, 223);
+  color: white;
+}
+.bg---blue {
+  background-color: rgb(142, 165, 233);
+}
+.bg-d-green {
+  background-color: #195719;
+  color: white;
+}
+.bg-green {
+  background-color: #359135;
+}
+.bg---green {
+  background-color: #83cc83;
+}
+.bg-black {
+  background-color: rgb(45, 45, 48);
+  color: white;
+}
+.bg---grey {
+  background-color: var(--standardGrey);
+}
+.bg-grey {
+  background-color: rgb(109, 112, 119);
+}
+
+/* Text Color */
+.txt-black {
+  color: black;
+}
+.txt---grey {
+  color: var(--standardGrey);
+}
+.txt-grey {
+  color: rgb(109, 112, 119);
+}
+.txt-white {
+  color: white;
+}
+.txt-orange {
+  color: orange;
+}
+.txt-tomato {
+  color: tomato;
+}
+.txt-salmon {
+  color: rgb(247, 155, 155);
+}
+.txt-d-red {
+  color: rgb(128, 25, 25);
+}
+.txt-red {
+  color: rgb(202, 54, 54);
+}
+.txt---red {
+  color: rgb(252, 61, 61);
+}
+.txt-d-blue {
+  color: rgb(47, 69, 134);
+}
+.txt-blue {
+  color: rgb(86, 120, 223);
+}
+.txt---blue {
+  color: rgb(142, 165, 233);
+}
+.txt-d-green {
+  color: #195719;
+}
+.txt-green {
+  color: #359135;
+}
+.txt---green {
+  color: #83cc83;
+}
