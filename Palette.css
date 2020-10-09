@@ -1,4 +1,4 @@
-/* 🎨 Colors */
+/* 🎨 Background Colors */
 .bg-tomato {
   background-color: tomato;
 }
@@ -69,10 +69,87 @@
   color: white;
 }
 .bg---grey {
-  background-color: var(--standardGrey);
+  background-color: #e7e7e7;
 }
 .bg-grey {
   background-color: rgb(109, 112, 119);
+}
+
+/* Background Color With adjusted Opacity */
+.bg-tomato-a {
+  background-color: rgba(255, 99, 71, 0.5);
+}
+.bg-orange-a {
+  background-color: rgba(255, 166, 0, 0.5);
+}
+.bg-salmon-a {
+  background-color: rgb(247, 155, 155, 0.5);
+}
+.bg-sandybrown-a {
+  background-color: rgba(244, 165, 96, 0.5);
+}
+.bg-brown-a {
+  background-color: rgba(165, 42, 42, 0.5);
+}
+.bg-seagreen-a {
+  background-color: rgba(46, 139, 86, 0.5);
+}
+.bg-aqua-a {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+.bg-firebrick-a {
+  background-color: rgba(178, 34, 34, 0.5);
+}
+.bg-darkolivegreen-a {
+  background-color: rgba(85, 107, 47, 0.5);
+}
+.bg-slateblue-a {
+  background-color: rgba(105, 90, 205, 0.5);
+}
+.bg-crimson-a {
+  background-color: rgba(220, 20, 60, 0.5);
+}
+.bg-d-red-a {
+  background-color: rgb(128, 25, 25, 0.5);
+  color: white;
+}
+.bg-red-a {
+  background-color: rgb(202, 54, 54, 0.5);
+  color: white;
+}
+.bg---red-a {
+  background-color: rgb(252, 61, 61, 0.5);
+}
+.bg-d-blue-a {
+  background-color: rgb(47, 69, 134, 0.5);
+  color: white;
+}
+.bg-blue-a {
+  background-color: rgb(86, 120, 223, 0.5);
+  color: white;
+}
+.bg---blue-a {
+  background-color: rgb(142, 165, 233, 0.5);
+}
+.bg-d-green-a {
+  background-color: #1957199d;
+  color: white;
+}
+.bg-green-a {
+  background-color: #35913591;
+}
+.bg---green-a {
+  background-color: #83cc838e;
+}
+.bg-black-a {
+  background-color: rgb(45, 45, 48, 0.5);
+  color: white;
+}
+.bg---grey-a {
+  background-color: #e7e7e783;
+}
+.bg-grey-a {
+  background-color: rgb(109, 112, 119, 0.5);
 }
 
 /* Text Color */
