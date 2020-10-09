@@ -18,6 +18,7 @@ Anybody can get started with Palette by inserting the following above the `</hea
 The background color of any component can be easily changed using the `bg-colorname` class.
 Using the `bg---colorname` class will make the selected background color lighter.
 Using the `bg-d-colorname` class will make the selected background color darker.
+In addition the `bg-colorname-a` class consists of a lowered opacity.
 All existing colors as of the latest version are as show from the following:
 
 ### ✎ Colors That Are Used Often:
