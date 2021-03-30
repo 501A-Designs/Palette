@@ -1,227 +1,135 @@
-/* 🎨 Background Colors */
-.bg-tomato {
-  background-color: tomato;
-}
-.bg-orange {
-  background-color: orange;
-}
-.bg-salmon {
-  background-color: rgb(247, 155, 155);
-}
-.bg-sandybrown {
-  background-color: sandybrown;
-}
-.bg-brown {
-  background-color: brown;
-}
-.bg-seagreen {
-  background-color: seagreen;
-}
-.bg-aqua {
-  background-color: aqua;
-}
-.bg-firebrick {
-  background-color: firebrick;
-}
-.bg-darkolivegreen {
-  background-color: darkolivegreen;
-}
-.bg-slateblue {
-  background-color: slateblue;
-}
-.bg-crimson {
-  background-color: crimson;
-}
-.bg-d-red {
-  background-color: rgb(128, 25, 25);
-  color: white;
-}
-.bg-red {
-  background-color: rgb(202, 54, 54);
-  color: white;
-}
-.bg---red {
-  background-color: rgb(252, 61, 61);
-}
-.bg-d-blue {
-  background-color: rgb(47, 69, 134);
-  color: white;
-}
-.bg-blue {
-  background-color: rgb(86, 120, 223);
-  color: white;
-}
-.bg---blue {
-  background-color: rgb(142, 165, 233);
-}
-.bg-d-green {
-  background-color: #195719;
-  color: white;
-}
-.bg-green {
-  background-color: #359135;
-}
-.bg---green {
-  background-color: #83cc83;
-}
-.bg-black {
-  background-color: rgb(45, 45, 48);
-  color: white;
-}
-.bg---grey {
-  background-color: #e7e7e7;
-}
-.bg-grey {
-  background-color: rgb(109, 112, 119);
+/* CSS Variable */
+:root{
+  --tomato: tomato;
+  --orange: orange;
+  --salmon: rgb(247, 155, 155);
+  --sandybrown: sandybrown;
+  --brown:brown;
+  --seagreen:seagreen;
+  --aqua:aqua;
+  --firebrick:firebrick;
+  --darkolivegreen:darkolivegreen;
+  --slateblue:slateblue;
+  --crimson:crimson;
+
+  /* Colors with white text */
+  --darkRed:rgb(128, 25, 25);
+  --red:rgb(202, 54, 54);
+  --lightRed:rgb(252, 61, 61);
+
+  --darkBlue:rgb(47, 69, 134);
+  --blue:rgb(86, 120, 223);
+  --lightBlue:rgb(142, 165, 233);
+
+  --darkGreen:#195719;
+  --green:#359135;
+  --lightGreen:#83cc83;
+
+  --grey:rgb(109, 112, 119);
+  --lightGrey:#e7e7e7;
+
+  --black:rgb(45, 45, 48);
 }
 
-/* Background Color With adjusted Opacity */
-.bg-tomato-a {
-  background-color: rgba(255, 99, 71, 0.5);
-}
-.bg-orange-a {
-  background-color: rgba(255, 166, 0, 0.5);
-}
-.bg-salmon-a {
-  background-color: rgba(247, 155, 155, 0.5);
-}
-.bg-sandybrown-a {
-  background-color: rgba(244, 165, 96, 0.5);
-}
-.bg-brown-a {
-  background-color: rgba(165, 42, 42, 0.5);
-}
-.bg-seagreen-a {
-  background-color: rgba(46, 139, 86, 0.5);
-}
-.bg-aqua-a {
-  background-color: rgba(0, 255, 255, 0.5);
-}
-.bg-firebrick-a {
-  background-color: rgba(178, 34, 34, 0.5);
-}
-.bg-darkolivegreen-a {
-  background-color: rgba(85, 107, 47, 0.5);
-}
-.bg-slateblue-a {
-  background-color: rgba(105, 90, 205, 0.5);
-}
-.bg-crimson-a {
-  background-color: rgba(220, 20, 60, 0.5);
-}
-.bg-d-red-a {
-  background-color: rgba(128, 25, 25, 0.5);
+/* 🎨 Background Colors */
+.bg-tomato {background-color: var(--tomato);}
+.bg-orange {background-color: var(--orange);}
+.bg-salmon {background-color: var(--salmon);}
+.bg-sandybrown {background-color: var(--sandybrown);}
+.bg-brown {background-color: var(--brown);}
+.bg-seagreen {background-color: var(--seagreen);}
+.bg-aqua {background-color: var(--aqua);}
+.bg-firebrick {background-color: var(--firebrick);}
+.bg-darkolivegreen {background-color: var(--darkolivegreen);}
+.bg-slateblue {background-color: var(--slateblue);}
+.bg-crimson {background-color: var(--crimson);}
+
+/* Darks Colors */
+.bg-red,
+.bg-blue,
+.bg-black,
+.bg-d-red,
+.bg-d-blue,
+.bg-d-green,
+.bg-d-red-a,
+.bg-d-blue-a,
+.bg-d-green-a,
+.bg-red-a,
+.bg-blue-a,
+.bg-black-a{
   color: white;
 }
-.bg-red-a {
-  background-color: rgba(202, 54, 54, 0.5);
-  color: white;
-}
-.bg---red-a {
-  background-color: rgba(252, 61, 61, 0.5);
-}
-.bg-d-blue-a {
-  background-color: rgba(47, 69, 134, 0.5);
-  color: white;
-}
-.bg-blue-a {
-  background-color: rgba(86, 120, 223, 0.5);
-  color: white;
-}
-.bg---blue-a {
-  background-color: rgba(142, 165, 233, 0.5);
-}
-.bg-d-green-a {
-  background-color: rgba(25, 87, 25, 0.5);
-  color: white;
-}
-.bg-green-a {
-  background-color: rgba(53, 145, 53, 0.5);
-}
-.bg---green-a {
-  background-color: rgba(131, 204, 131, 0.5);
-}
-.bg-black-a {
-  background-color: rgba(45, 45, 48, 0.5);
-  color: white;
-}
-.bg---grey-a {
-  background-color: rgba(231, 231, 231, 0.5);
-}
-.bg-grey-a {
-  background-color: rgba(109, 112, 119, 0.5);
-}
+.bg-d-red {background-color: var(--darkRed);}
+.bg-d-blue {background-color: var(--darkBlue);}
+.bg-d-green {background-color: var(--darkGreen);}
+
+/* Standard Colors */
+.bg-red {background-color: var(--red);}
+.bg-blue {background-color: var(--blue);}
+.bg-green {background-color: var(--green);}
+.bg-grey {background-color: var(--grey);}
+.bg-black {background-color: var(--black);}
+
+/* Light Colors */
+.bg---red {background-color: var(--lightRed);}
+.bg---blue {background-color: var(--lightBlue);}
+.bg---green {background-color: var(--lightGreen);}
+.bg---grey {background-color: var(--lightGrey);}
+
+/* Has White Text */
+.bg-d-red-a {background-color: rgba(128, 25, 25, 0.5);}
+.bg-d-blue-a {background-color: rgba(47, 69, 134, 0.5);}
+.bg-d-green-a {background-color: rgba(25, 87, 25, 0.5);}
+
+.bg-tomato-a {background-color: rgba(255, 99, 71, 0.5);}
+.bg-orange-a {background-color: rgba(255, 166, 0, 0.5);}
+.bg-salmon-a {background-color: rgba(247, 155, 155, 0.5);}
+.bg-sandybrown-a {background-color: rgba(244, 165, 96, 0.5);}
+.bg-brown-a {background-color: rgba(165, 42, 42, 0.5);}
+.bg-seagreen-a {background-color: rgba(46, 139, 86, 0.5);}
+.bg-aqua-a {background-color: rgba(0, 255, 255, 0.5);}
+.bg-firebrick-a {background-color: rgba(178, 34, 34, 0.5);}
+.bg-darkolivegreen-a {background-color: rgba(85, 107, 47, 0.5);}
+.bg-slateblue-a {background-color: rgba(105, 90, 205, 0.5);}
+.bg-crimson-a {background-color: rgba(220, 20, 60, 0.5);}
+
+/* Has White Text */
+.bg-red-a {background-color: rgba(202, 54, 54, 0.5);}
+.bg-blue-a {background-color: rgba(86, 120, 223, 0.5);}
+.bg-black-a {background-color: rgba(45, 45, 48, 0.5);}
+/* No White Text */
+.bg-green-a {background-color: rgba(53, 145, 53, 0.5);}
+.bg-grey-a {background-color: rgba(109, 112, 119, 0.5);}
+
+.bg---red-a {background-color: rgba(252, 61, 61, 0.5);}
+.bg---blue-a {background-color: rgba(142, 165, 233, 0.5);}
+.bg---green-a {background-color: rgba(131, 204, 131, 0.5);}
+.bg---grey-a {background-color: rgba(231, 231, 231, 0.5);}
 
 /* Text Color */
-.txt-black {
-  color: black;
-}
-.txt---grey {
-  color: var(--standardGrey);
-}
-.txt-grey {
-  color: rgb(109, 112, 119);
-}
-.txt-white {
-  color: white;
-}
-.txt-orange {
-  color: orange;
-}
-.txt-tomato {
-  color: tomato;
-}
-.txt-salmon {
-  color: rgb(247, 155, 155);
-}
-.txt-sandybrown {
-  color: sandybrown;
-}
-.txt-brown {
-  color: brown;
-}
-.txt-seagreen {
-  color: seagreen;
-}
-.txt-aqua {
-  color: aqua;
-}
-.txt-firebrick {
-  color: firebrick;
-}
-.txt-darkolivegreen {
-  color: darkolivegreen;
-}
-.txt-slateblue {
-  color: slateblue;
-}
-.txt-crimson {
-  color: crimson;
-}
-.txt-d-red {
-  color: rgb(128, 25, 25);
-}
-.txt-red {
-  color: rgb(202, 54, 54);
-}
-.txt---red {
-  color: rgb(252, 61, 61);
-}
-.txt-d-blue {
-  color: rgb(47, 69, 134);
-}
-.txt-blue {
-  color: rgb(86, 120, 223);
-}
-.txt---blue {
-  color: rgb(142, 165, 233);
-}
-.txt-d-green {
-  color: #195719;
-}
-.txt-green {
-  color: #359135;
-}
-.txt---green {
-  color: #83cc83;
-}
+.txt-d-red {color: var(--darkRed);}
+.txt-d-blue {color: var(--darkBlue);}
+.txt-d-green {color: var(--darkGreen);}
+
+.txt-black {color: var(--black);}
+.txt-grey {color: var(--grey);}
+.txt-white {color: white;}
+.txt-orange {color: var(--orange);}
+.txt-tomato {color: var(--tomato);}
+.txt-salmon {color: var(--salmon);}
+.txt-sandybrown {color: var(--sandybrown);}
+.txt-brown {color: var(--brown);}
+.txt-seagreen {color: var(--seagreen);}
+.txt-aqua {color: var(--aqua);}
+.txt-firebrick {color: var(--firebrick);}
+.txt-darkolivegreen {color: var(--darkolivegreen);}
+.txt-slateblue {color: var(--slateblue);}
+.txt-crimson {color: var(--crimson);}
+.txt-red {color: var(--red);}
+.txt-blue {color: var(--blue);}
+.txt-green {color: var(--green);}
+
+.txt---grey {color: var(--lightGrey);}
+.txt---red {color: var(--lightRed);}
+.txt---blue {color: var(--lightBlue);}
+.txt---green {color: var(--lightGreen);}
